@@ -242,117 +242,127 @@
             </div>
         </section>
         <section class="subscribe">
-            <h2 class="subscribe__label">Підпишіться на нашу розсилку</h2>
-            <p class="subscribe__caption">Корисні статті, акції, новини - отримайте все це зараз!</p>
-            <input class="subscribe__input" type="text" placeholder="Ваш e-mail">
-            <button class="main-button--cropped" type="submit">Підписатися</button>
-            <p class="subscribe__disclaimer">Ми не шлем спам, і не передаємо нікому ваші дані</p>
+            <div class="container">
+                <h2 class="subscribe__label">Підпишіться на нашу розсилку</h2>
+                <p class="subscribe__caption">Корисні статті, акції, новини - отримайте все це зараз!</p>
+                <form class="subscribe__form">
+                    <input class="subscribe__input" type="text" placeholder="Ваш e-mail">
+                    <button class="main-button--cropped" type="submit">Підписатися</button>
+                </form>
+                <p class="subscribe__disclaimer">Ми не шлем спам, і не передаємо нікому ваші дані</p>
+            </div>
         </section>
     </main>
     <section class="useful-info">
-        <div class="useful-info__contacts">
-            <h2 class="contacts__label">Контактна інформація</h2>
-            <address class="contacts__address">
-                <ul class="contacts__list list--reset">
-                    <li class="contacts__contact">
-                        <a class="contacts__email" href="mailto:test@test.ru">
-                            test@test.ru
+        <div class="container useful-info--row useful-info--underlined">
+            <div class="useful-info__contacts">
+                <h2 class="contacts__label">Контактна інформація</h2>
+                <address class="contacts__address">
+                    <ul class="contacts__list list--reset">
+                        <li class="contacts__contact">
+                            <a class="contacts__email" href="mailto:test@test.ru">
+                                test@test.ru
+                            </a>
+                        </li>
+                        <li class="contacts__contact">
+                            <a class="contacts__tel" href="tel:+380965556699">
+                                +3 8096 555 66 99
+                            </a>
+                        </li>
+                        <li>
+                            <p class="contacts__street">Тернопіль вул С. Бандери</p>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="useful-info__wrapper">
+                <h2 class="wrapper__title">
+                    Основні посилання
+                </h2>
+                <ul class="wrapper__list list--reset">
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Головна
                         </a>
                     </li>
-                    <li class="contacts__contact">
-                        <a class="contacts__tel" href="tel:+380965556699">
-                            +3 8096 555 66 99
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Наші проекти
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Наші послуги
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Контакти
                         </a>
                     </li>
                 </ul>
-                <p class="contacts__street">Тернопіль вул С. Бандери</p>
-            </address>
-        </div>
-        <div class="useful-info__wrapper">
-            <h2 class="wrapper__title">
-                Основні посилання
-            </h2>
-            <ul class="wrapper__list list--reset">
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Головна
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Наші проекти
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Наші послуги
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Контакти
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="useful-info__wrapper">
-            <h2 class="wrapper__title">
-                Наші проекти
-            </h2>
-            <ul class="wrapper__list list--reset">
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Укрпошта
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Нафтогаз
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Львівська пивоварня
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        ТЭЦ Калуша
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="useful-info__wrapper">
-            <h2 class="wrapper__title">
-                Соціальні мережі
-            </h2>
-            <ul class="wrapper__list list--reset">
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        LinkedIn
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Instagram
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Facebook
-                    </a>
-                </li>
-                <li class="wrapper__item">
-                    <a class="wrapper__link" href="">
-                        Twitter
-                    </a>
-                </li>
-            </ul>
+            </div>
+            <div class="useful-info__wrapper">
+                <h2 class="wrapper__title">
+                    Наші проекти
+                </h2>
+                <ul class="wrapper__list list--reset">
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Укрпошта
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Нафтогаз
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Львівська пивоварня
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            ТЭЦ Калуша
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="useful-info__wrapper">
+                <h2 class="wrapper__title">
+                    Соціальні мережі
+                </h2>
+                <ul class="wrapper__list list--reset">
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="wrapper__item">
+                        <a class="wrapper__link" href="">
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         
     </section>
     <footer class="page-footer">
-        <p class="page-footer__copyright">&#169; 2019. Всі права захищені</p>
+        <div class="container">
+            <p class="page-footer__copyright">&#169; 2019. Всі права захищені</p>
+        </div>
     </footer>
 </body>
 </html>
